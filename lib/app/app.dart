@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:tut/presentation/theme_manger.dart';
 
+// ignore: must_be_immutable
 class MyApp extends StatefulWidget {
   MyApp._internal();
 
@@ -16,7 +18,8 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      theme: getApplicationTheme(),
+    );
   }
 }
-
