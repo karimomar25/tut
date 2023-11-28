@@ -60,7 +60,7 @@ ThemeData getApplicationTheme() {
 
 // input decoration theme
       inputDecorationTheme: InputDecorationTheme(
-        contentPadding: EdgeInsets.all(AppPadding.p8),
+        contentPadding: const EdgeInsets.all(AppPadding.p8),
         hintStyle:
             getRegularStyle(color: ColorManger.grey, fontSize: FontSize.s14),
         labelStyle:
@@ -71,18 +71,18 @@ ThemeData getApplicationTheme() {
         enabledBorder: OutlineInputBorder(
             borderSide:
                 BorderSide(color: ColorManger.primary, width: AppSize.s1_5),
-            borderRadius: BorderRadius.all(Radius.circular(AppSize.s8))),
+            borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
         focusedBorder: OutlineInputBorder(
             borderSide:
                 BorderSide(color: ColorManger.grey, width: AppSize.s1_5),
-            borderRadius: BorderRadius.all(Radius.circular(AppSize.s8))),
+            borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
         errorBorder: OutlineInputBorder(
             borderSide:
                 BorderSide(color: ColorManger.error, width: AppSize.s1_5),
-            borderRadius: BorderRadius.all(Radius.circular(AppSize.s8))),
+            borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
         focusedErrorBorder: OutlineInputBorder(
             borderSide:
                 BorderSide(color: ColorManger.primary, width: AppSize.s1_5),
-            borderRadius: BorderRadius.all(Radius.circular(AppSize.s8))),
+            borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
       ));
 }
