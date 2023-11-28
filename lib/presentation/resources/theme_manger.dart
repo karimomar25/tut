@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tut/presentation/color_manger.dart';
-import 'package:tut/presentation/font_manger.dart';
-import 'package:tut/presentation/styles_manger.dart';
-import 'package:tut/presentation/values_manger.dart';
+import 'package:tut/presentation/resources/color_manger.dart';
+import 'package:tut/presentation/resources/font_manger.dart';
+import 'package:tut/presentation/resources/styles_manger.dart';
+import 'package:tut/presentation/resources/values_manger.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(

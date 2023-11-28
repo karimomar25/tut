@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tut/presentation/theme_manger.dart';
+import 'package:tut/presentation/resources/theme_manger.dart';
 
 // ignore: must_be_immutable
 class MyApp extends StatefulWidget {
