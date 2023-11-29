@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tut/presentation/resources/theme_manger.dart';
+import 'package:tut/presentation/resources/routes_manger.dart';
 
 // ignore: must_be_immutable
 class MyApp extends StatefulWidget {
@@ -19,6 +20,9 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      onGenerateRoute: RouteGenerator.getRoute,
+      initialRoute: Routes.splashRoute,
       theme: getApplicationTheme(),
     );
   }
