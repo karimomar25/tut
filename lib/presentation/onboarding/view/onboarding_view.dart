@@ -92,7 +92,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
             child: GestureDetector(
               onTap: () {
                 _pageController.animateToPage(_getPreviousIndex(),
-                    duration: Duration(milliseconds: 300),
+                    duration: const Duration(milliseconds: 300),
                     curve: Curves.bounceInOut);
               },
               child: SizedBox(
@@ -116,7 +116,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
             child: GestureDetector(
               onTap: () {
                 _pageController.animateToPage(_getNextIndex(),
-                    duration: Duration(milliseconds: 300),
+                    duration: const Duration(milliseconds: 300),
                     curve: Curves.bounceInOut);
               },
               child: SizedBox(
